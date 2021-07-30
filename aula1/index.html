@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<form name="meuForm" method="POST" action="action/teste.php" id="formulario">
+	<div class="box">
+		<h1>Formulario:</h1>
+		<label>
+			<span>Nome</span>
+ 			<input type="text" class="input_text" name="nome" id="nome"/>
+		</label>
+		<label>
+ 			<span>Sobrenome</span>
+			<input type="text" class="input_text" name="sobrenome" id="sobrenome"/>
+		 </label>
+		<label>
+ 			<span>Idade</span>
+			<input type="text" class="input_text" name="idade" id="idade"/>
+		</label>
+       <label>
+            <span>Linguagem Favorita</span>
+         <select name="linguagem">
+            <option value="Java">Java</option>
+            <option value="PHP" selected>PHP</option>
+            <option value="NodeJS">NodeJS</option>
+            <option value="C#">C#</option>
+            <option value="Ruby">Ruby</option>
+          </select>
+       </label>
+       <label>
+        <button type="submit">Enviar</button>
+    </label>
+	</div>
+</form>
+</body>
+</html>
