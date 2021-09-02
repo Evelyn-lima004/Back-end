@@ -46,22 +46,6 @@ label {
 }
 
 
-input {
-    font-size: 1.1875rem;
-    color: #404040;
-    padding: 1rem 0 0.5rem 0;
-    width: 100%;
-    border: none;
-    border-color: #a0a0a0;
-    border-bottom-width: 1px;
-    border-bottom-style: dotted;
-    margin-bottom: 3rem;
-    transition: 0.15s linear;
-}
-
-div{
-    margin-left: -243px;
-}
 
 select {
     display: flex;
@@ -100,22 +84,3 @@ button:focus {
 }
 
 
-.input-radio{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
-}
-
-.input-radio input{
-    width: 20px;
-    margin: 0;
-}
-
-
-
-#total {
-    font-size: 25px;
-    font-weight: bold;
-    resize: none;
-}
